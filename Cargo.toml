@@ -1,0 +1,16 @@
+[package]
+name = "fleet-midi-pulse"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/fleet-midi-pulse"
+description = "Heartbeat-driven timing layer for fleet-midi — BPM, swing, tempo ramps, fermata"
+keywords = ["midi", "timing", "pulse", "bpm", "music"]
+categories = ["multimedia::audio", "data-structures"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+thiserror = "1"
+
+[dev-dependencies]
+tokio = { version = "1", features = ["full"] }
