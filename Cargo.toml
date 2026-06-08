@@ -1,9 +1,12 @@
 [package]
+rust-version = "1.70"
+readme = "README.md"
 name = "fleet-midi-pulse"
 version = "0.1.0"
 edition = "2021"
 license = "MIT"
 repository = "https://github.com/SuperInstance/fleet-midi-pulse"
+documentation = "https://docs.rs/fleet-midi-pulse"
 description = "Heartbeat-driven timing layer for fleet-midi — BPM, swing, tempo ramps, fermata"
 keywords = ["midi", "timing", "pulse", "bpm", "music"]
 categories = ["multimedia::audio", "data-structures"]
